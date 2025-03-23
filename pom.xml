@@ -232,10 +232,9 @@
             </activation>
 
         </profile>
-	<profiles>
+	
         <!-- Jenkins by default defines a property BUILD_NUMBER which is used to enable the profile. -->
-        
-	<profile>
+        <profile>
             <id>jenkins</id>
             <activation>
                 <property>
